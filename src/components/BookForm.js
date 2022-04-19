@@ -8,7 +8,11 @@ function BookForm() {
     <div className='row'>
 
 
-<div className='input_field col s6'>
+<div className='input-field col s6'>
+<input id='book_title' type="text" className='validate'/>
+<label htmlFor='book_title'>Book Title</label>
+      </div>
+<div className='input-field col s6'>
 <input id='book_author' type="text" className='validate'/>
 <label htmlFor='book_author'>Book Author</label>
       </div>
@@ -19,13 +23,13 @@ function BookForm() {
     <div className='row'>
 
 
-    <div className='input_field col s6'>
+    <div className='input-field col s6'>
         <input id='book_category' type="text" className='validate'/>
         <label htmlFor='book_category'>Book Category</label>
               </div>
     
     
-    <div className='input_field col s6'>
+    <div className='input-field col s6'>
     <input id='book_isbn' type="text" className='validate'/>
     <label htmlFor='book_isbn'>Book ISBN</label>
           </div>
